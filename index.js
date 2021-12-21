@@ -14,10 +14,10 @@ app.use(express.json());
 // });
 
 const db = mysql.createConnection({
-  host: "",
-  user: "",
-  password: "",
-  database: ""
+  host: "119.59.120.22",
+  user: "gurucaic_testapi",
+  password: "oQc9GUjI",
+  database: "gurucaic_testapi"
 });
 
 app.get("/data", (req, res) => {
