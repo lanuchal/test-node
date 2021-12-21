@@ -77,6 +77,6 @@ app.get("/data", (req, res) => {
 //   });
 // });
 
-app.listen(3001, () => {
+app.listen(PROT, () => {
     console.log("Yey, your server is running on port " + PROT);
 });
